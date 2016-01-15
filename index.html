@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Service Workers</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/cache.css">
+        <link rel="stylesheet" href="css/uncache.css">
 </head>
 <body>
-Service Workders Study
+  <div>
+  Service Workders Study
+  </div>
 
-<script src="js/main.js"></script>
-<script src="js/cache.js"></script>
-<script src="js/uncache.js"></script>
+  <div>
+  <button id="cachedMethodButton" class="cached">cached Method</button>
+  </div>
+
+  <div>
+  <button id="uncachedMethodButton" class="uncached">uncached Method</button>
+  </div>
+
+  <div class="output"></div>
+
+  <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/cache.js"></script>
+  <script src="js/uncache.js"></script>
 </body>
 </html>
